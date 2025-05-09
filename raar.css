@@ -6,7 +6,7 @@ html {
 }
 
 .navbar {
-  background-color: black;
+  background-color: transparent;
   position: absolute;
   top: 0;
   width: 96%;
