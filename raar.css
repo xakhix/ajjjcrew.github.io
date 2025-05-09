@@ -7,7 +7,7 @@ html {
 
 .navbar {
   background-color: transparent;
-  position: relative;
+  position: absolute;
   top: 0;
   width: 96%;
   margin-top: 25px;
