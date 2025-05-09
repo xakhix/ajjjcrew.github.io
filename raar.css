@@ -1,6 +1,6 @@
 body,
 html {
-  height: 1000%;
+  height: 500%;
   margin: 0px;
   padding: 0px;
   color: white;
@@ -73,7 +73,7 @@ html {
   align-items: center;
   text-align: left;
   padding: 0 20px;
-  background: url(aqua\ resort.jpg) no-repeat center center/cover;
+  background: url(WEBSITE/wall.jpg) no-repeat center center/cover;
   overflow: hidden;
   z-index: 1;
 }
