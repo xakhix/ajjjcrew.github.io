@@ -8,7 +8,7 @@ html {
 .navbar {
   background-color: transparent;
   position: absolute;
-  top: 0;
+  right:10px;
   width: 96%;
   margin-top: 25px;
   display: flex;
