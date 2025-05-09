@@ -74,7 +74,7 @@
   align-items: center;
   text-align: left;
   padding: 0 20px; 
-  background: url("WS101/wall.jpg") no-repeat center center/cover;
+  background: url("WEBSITE/wall.jpg") no-repeat center center/cover;
   overflow: hidden;
   z-index: 1;
 }  
