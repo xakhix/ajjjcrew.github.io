@@ -1,7 +1,7 @@
 body,
 html {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   color: white;
 }
 
@@ -17,17 +17,19 @@ html {
   overflow: hidden;
   z-index: 1;
 }
+
 .navbar {
-  background-color: transparent;
-  position: absolute;
-  right:10px;
-  width: 96%;
-  margin-top: 25px;
+  background-color: transparent; 
+  position: absolute; 
+  top: 10px;
+  right: 10px; 
+  width: auto;
   display: flex;
   justify-content: flex-end;
   padding: 10px 5px;
-  z-index: 2;
+  z-index: 2; 
 }
+
 .hero-section .overlay {
   position: absolute;
   top: 0;
@@ -35,7 +37,7 @@ html {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 0;
+  z-index: 0; /* Ensure it is below the navbar */
 }
 
 .hero-text {
@@ -48,7 +50,7 @@ html {
 }
 
 .hero-text h1 {
-  font-family: "Times new roman", cursive;
+  font-family: "Times New Roman", cursive;
   font-size: 50px;
   font-weight: bold;
   margin-top: 25px;
@@ -59,6 +61,7 @@ html {
   font-family: "Times New Roman", Times, serif;
   margin-top: 5px;
 }
+
 .nav-list {
   list-style-type: none;
   padding: 0;
@@ -80,30 +83,6 @@ html {
 
 .nav-list li a:hover {
   background-color: rgb(64, 66, 66);
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: transparent;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
-  z-index: 3;
-}
-
-.dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
 }
 
 .intro-container {
