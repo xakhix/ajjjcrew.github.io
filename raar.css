@@ -8,9 +8,10 @@ html {
 .navbar {
   background-color: transparent;
   position: absolute;
-  top: 0;
+  bottom: 150px;
   width: 96%;
   margin-top: 25px;
+  margin-left: 1000px;
   display: flex;
   justify-content: flex-end;
   padding: 10px 5px;
